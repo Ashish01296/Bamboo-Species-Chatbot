@@ -12,3 +12,4 @@ PyPDF2
 langdetect
 deep-translator
 pyrebase4
+setuptools
