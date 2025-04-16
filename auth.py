@@ -18,26 +18,15 @@ import sys
 
 load_dotenv()
 
-api_key = os.getenv("apiKey")
-authDomain = os.getenv("authDomain")
-databaseURL = os.getenv("databaseURL")
-projectId = os.getenv("projectId")
-storageBucket = os.getenv("storageBucket")
-messagingSenderId = os.getenv("messagingSenderId")
-appId = os.getenv("appId")
-measurementId = os.getenv("measurementId")
-
-# ---------- CONFIGURATION ----------
-# Firebase config
 firebase_config = {
-    "apiKey": api_key,
-    "authDomain": authDomain,
-    "databaseURL": databaseURL,
-    "projectId":projectId ,
-    "storageBucket": storageBucket,
-    "messagingSenderId": messagingSenderId,
-    "appId": appId,
-    "measurementId": measurementId
+    "apiKey": "AIzaSyDdMC9baSTkWWBwnVCu-Xs2jZj86-fLmsE",
+    "authDomain": "bamboo-project-d9832.firebaseapp.com",
+    "databaseURL": "https://bamboo-project-d9832-default-rtdb.firebaseio.com",
+    "projectId": "bamboo-project-d9832",
+    "storageBucket": "bamboo-project-d9832.appspot.com",
+    "messagingSenderId": "525252188687",
+    "appId": "1:525252188687:web:366f42a40f6fe05678a17a",
+    "measurementId": "G-1J9PH26HN0"
 }
 
 
