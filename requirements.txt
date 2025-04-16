@@ -1,0 +1,14 @@
+boto3
+opensearch-py
+requests
+requests-aws4auth
+python-docx
+openai
+streamlit
+langchain-community
+langchain
+tiktoken
+PyPDF2
+langdetect
+deep-translator
+pyrebase4
